@@ -1,6 +1,7 @@
 {
   "recommendations": [
-    "ExpressSnippets.vscode-express-snippets",
+    "mongodb.mongodb-vscode",
+    "roerohan.mongo-snippets-for-node-js",
     "xabikos.JavaScriptSnippets",
     "ms-vscode.vscode-typescript-next",
     "dbaeumer.vscode-eslint",
