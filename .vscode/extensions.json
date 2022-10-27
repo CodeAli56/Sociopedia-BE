@@ -1,13 +1,10 @@
 {
   "recommendations": [
     "mongodb.mongodb-vscode",
-    "roerohan.mongo-snippets-for-node-js",
     "xabikos.JavaScriptSnippets",
     "ms-vscode.vscode-typescript-next",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
-    "formulahendry.code-runner",
-    "VisualStudioExptTeam.vscodeintellicode",
-    "VisualStudioExptTeam.intellicode-api-usage-examples"
+    "formulahendry.code-runner"
   ]
 }
