@@ -100,3 +100,14 @@ export const deleteComment = async(req,res) => {
         res.status(404).json({error:err.message});
     }
 }
+
+export const deletePost = async(req,res) => {
+    try {
+        const {postId} = req.params;
+        const deletedPost = await Post.findByIdAndDelete(postId)
+        const post = await Post.find().sort({createdAt:-1});
+        res.status(201).json(post);
+    } catch (err) {
+        res.status(404).json({error:err.message});
+    }
+}
